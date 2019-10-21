@@ -1,6 +1,5 @@
 import React,{ Component } from 'react';
 
-
 class User extends Component{
     userOnClick(message){
         this.props.onChange(message);
