@@ -1,6 +1,5 @@
 import React,{ Component } from 'react';
 
-
 class User extends Component{
     userOnClick(message){
         this.props.onChange(message);
@@ -8,12 +7,12 @@ class User extends Component{
     render(){
         const user = this.props.user;
         return(
-          <div> 
-            <ul>
+          <div className="user"> 
+            <ul  className="list-unstyled">
               <li>
                 {user.username} ---- {user.email}
               </li> 
-              <button onClick={this.userOnClick.bind(this, "Console Log!")}>
+              <button onClick={this.userOnClick.bind(this, user.id)}>
                     Click
               </button>
             </ul>
