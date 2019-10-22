@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
-import User from './User';
 import UserDetails from './UserDetails';
 
 const routing = (
@@ -14,7 +13,6 @@ const routing = (
       <Link to="/user">User</Link>
       <Link to="/userdetails">UserDetails</Link>
       </div>
-        {' '}
         <Switch>
           <Route path="/user" component={App} />
           <Route path="/userdetails" component={UserDetails} />
