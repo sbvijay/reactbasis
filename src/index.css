@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.header{
+  text-align: center;
+    padding: 20px;
+}
+.header a{
+  text-decoration: none!important;
+  margin:0px 20px;
+}
+.header a:active{
+  padding: 10px 20px;
+  background-color: deepskyblue;
+  color: #fff;
+}
+.header a:focus{
+  padding: 10px 20px;
+  background-color: deepskyblue;
+  color: #fff;
+}
+.user-details{
+  text-align: center;
+}
+.user{
+  padding: 20px;
+  display: inline-block;
+  width: 33%;
+}
+.user ul{
+  background-color:rgb(0, 0, 0, .5);
+  text-align: center;
+}
