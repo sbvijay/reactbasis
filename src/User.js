@@ -1,35 +1,38 @@
 import React,{ Component } from 'react';
+import UserDetails from './UserDetails';
 
 class User extends Component{
-    userOnClick(message){
-        // this.props.onChange(message);
-        fetch('https://jsonplaceholder.typicode.com/users/'+ message)
-        .then(res => res.json())
-        .then(json => {
-          this.setState({
-            users: json,
-          })
-        });
-        // .then(data=>console.log(data))
-      }
-    render(){
-        const user = this.props.user;
-       
-        return(
-          <div className="user"> 
-            <ul  className="list-unstyled">
-              <li>
-                
-                {user.username}
-              </li> 
-              <button onClick={this.userOnClick.bind(this, user.id)}>
-                    Click
-              </button>
-            </ul>
-          </div>
-          
-        );
-    }  
+  constructor(props){
+    super(props);
+    this.state= {
+      users: [],
+    }
+  }
+  componentDidMount(){
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(res => res.json())
+      .then(json => {
+        this.setState({
+          users: json,
+        })
+      });
+  }
+  userClick(message){
+    console.log(message)
+}  
+render() {
+  var {  users } = this.state; 
+    return (
+      <div className="App">
+          {users.map((user, key) => {
+            return(
+              <UserDetails key={`user-details-${key}`} user={user} onChange={this.userClick.bind(this)}/>
+            )
+          }
+          )}
+      </div>
+    );
+  }
 }
 
 export default User;
