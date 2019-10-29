@@ -22,7 +22,8 @@ class User extends Component {
   render() {
     var { users } = this.state;
     return (
-      <div className="App">
+      <div className="App container">
+        <h2>USERS LIST</h2>
         {users.map((user, key) => {
           return <UserDetails key={`user-details-${key}`} user={user} />;
         })}
