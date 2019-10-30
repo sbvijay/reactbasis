@@ -70,3 +70,14 @@ button:not(:disabled) {
   font-weight: 600;
   font-size: 30px;
 }
+.error-page{
+  margin-top:100px;
+}
+.loader{
+  position: absolute;
+  text-align: center;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 0px;
+  left: 0px;
+}
