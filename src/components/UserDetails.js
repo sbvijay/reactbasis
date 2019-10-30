@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { browserHistory } from "react-router";
 
+
 class UserDetails extends Component {
   userOnClick(message) {
     // this.props.onChange(message);
@@ -19,6 +20,7 @@ class UserDetails extends Component {
   render() {
     const user = this.props.user;
     return (
+      
       <div className="user">
         <ul className="list-unstyled">
           <li>{user.username}</li>
