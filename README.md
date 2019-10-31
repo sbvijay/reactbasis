@@ -1,6 +1,6 @@
 # USERAPP - React App for User Info.
 
-![Alt text](https://raw.githubusercontent.com/hari696/hollypedia/master/src/readme_logo.png "Title")
+![Alt text](https://raw.githubusercontent.com/sbvijay/reactbasis/blob/test/src/readme_logo.jpg "Title")
 
 # Overview.
 
