@@ -14,9 +14,7 @@ class UserDetails extends Component {
     super(props);
     this.state = {
       users: {}
-    };
-
-    
+    };    
   }
 
   getUserDetails(userId) {
