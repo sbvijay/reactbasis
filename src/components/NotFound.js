@@ -10,7 +10,6 @@ const NotFound = () => (
         height: 400,
         display: "block",
         margin: "auto",
-        position: "relative"
       }}
     />
   </div>
