@@ -1,15 +1,12 @@
-import React,{ Component } from 'react';
-import User from './components/User';
-class App extends Component{
-  
+import React, { Component } from "react";
+import User from "./components/User";
+class App extends Component {
   render() {
-      return (
-        
-        <div className="App">
-            <User/>
-        </div>
-      );
-    }
-    
+    return (
+      <div className="App">
+        <User />
+      </div>
+    );
+  }
 }
 export default App;
