@@ -1,6 +1,6 @@
 # USERAPP - React App for User Info.
 
-![Alt text](https://raw.githubusercontent.com/sbvijay/reactbasis/blob/test/src/readme_logo.jpg "Title")
+![Alt text](https://github.com/sbvijay/reactbasis/blob/test/src/readme_logo.jpg "Title")
 
 # Overview.
 
