@@ -1,6 +1,6 @@
 # USERAPP - React App for User Info.
 
-![Alt text](https://github.com/sbvijay/reactbasis/blob/test/src/readme_logo.jpg "Title")
+![Alt text](https://github.com/sbvijay/reactbasis/blob/test/src/readme.png "Title")
 
 # Overview.
 
@@ -14,11 +14,15 @@ http://react-app-test1.s3-website-us-east-1.amazonaws.com/
 React JS
 
 # Dependencies.
-bootstrap: 4.3.1, </br>
-react: 16.10.2, </br>
-react-dom: 16.10.2, </br>
-react-icons: 3.8.0,</br>
-react-loader-spinner: 3.1.4, </br>
-react-router": 3.2.0, </br>
-react-router-dom": 5.1.2,</br>
+bootstrap: 4.3.1 </br>
+react: 16.10.2 </br>
+react-dom: 16.10.2 </br>
+react-icons: 3.8.0</br>
+react-loader-spinner: 3.1.4 </br>
+react-router: 3.2.0 </br>
+react-router-dom: 5.1.2</br>
 react-scripts: 3.2.0
+
+# API
+Users API
+https://jsonplaceholder.typicode.com/users/
